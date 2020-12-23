@@ -1,0 +1,13 @@
+.heather{
+    height: fit-content;
+    width: fit-content;
+    background-image: url("Cover\ Image.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.heather h1{
+    font-size:40px;
+    height: fit-content;
+}
