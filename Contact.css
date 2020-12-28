@@ -39,7 +39,7 @@
 
 p{
   text-align: right;
-  margin-top: 8%;
+  margin-top: 1%;
   margin-right: 10%;
   font-size: xx-large;
 }
@@ -86,5 +86,8 @@ form{
   }
 
   .button{
-    margin: auto;
-  }
+
+     margin: 5px;
+     margin-top: 10px;
+   color:  rgb(232,167,83);
+    }
