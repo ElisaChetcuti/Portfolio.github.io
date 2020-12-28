@@ -25,9 +25,7 @@
     overflow-y: hidden;
     overflow-x: hidden;
     padding-top: 60px;
-
   }
- 
 
   .portrait{
    max-width: 18%; 
@@ -35,8 +33,6 @@
    position: fixed; 
    float: left;
 }
-
-  
 
   .row{
       margin-left: 18%;
@@ -53,8 +49,6 @@
     .col-md-4{
         padding: 10px;
     }
-
-
 
     @media (max-width: 767px) {
         .sidenav {
