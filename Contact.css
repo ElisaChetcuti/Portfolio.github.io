@@ -2,16 +2,15 @@
     box-sizing: border-box;
   }
   
-
-  .navbar-light .navbar-brand {
-    color: rgb(232,167,83);
-    font-family: 'Abril Fatface', cursive;
-    font-size: x-large;
+.navbar-light .navbar-brand {
+  color: rgb(232,167,83);
+  font-family: 'Abril Fatface', cursive;
+  font-size: x-large;
 }
 .navbar-light .navbar-nav .nav-link { 
-    color: rgb(232,167,83);
-    font-family: 'Abril Fatface', cursive;
-    font-size: x-large;
+  color: rgb(232,167,83);
+  font-family: 'Abril Fatface', cursive;
+  font-size: large;
 }
 
 /* The sidebar menu */
