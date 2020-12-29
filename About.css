@@ -50,9 +50,9 @@
 
   .p2{
     font-family: 'Montserrat', sans-serif;
-    background-color: black;
+    background-color: rgb(159, 151, 114);
     border-radius: 10px;
-    color: white;
+
   }
  
  @media (max-width: 767px) {

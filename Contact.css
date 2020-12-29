@@ -35,15 +35,14 @@
 
 p{
   text-align: right;
-  margin-top: 1%;
   margin-right: 10%;
-  font-size: xx-large;
+  font-size: 45px;
   color: rgb(232,167,83);
 }
 
 form{
   margin-left: 30%;
-  background-color: black;
+  background-color: rgb(159, 151, 114);
   margin-right: 10%;
   border-radius: 10px;
 }
