@@ -1,0 +1,67 @@
+
+.navbar-light .navbar-brand {
+    color: rgb(232,167,83);
+    font-family: 'Abril Fatface', cursive;
+    font-size: x-large;
+  }
+  .navbar-light .navbar-nav .nav-link { 
+    color: rgb(232,167,83);
+    font-family: 'Abril Fatface', cursive;
+    font-size: large;
+  }
+  
+  /* The sidebar menu */
+  .sidenav {
+      height: 100%; /* Full-height: remove this if you want "auto" height */
+      width: 17%; /* Set the width of the sidebar */
+      position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+      z-index: 1; /* Stay on top */
+      top: 0; /* Stay at the top */
+      left: 0;
+      background-color:rgb(232,167,83); /* Black */
+      overflow-y: hidden;
+      overflow-x: hidden;
+      padding-top: 60px;
+  
+    }
+   
+  
+    .portrait{
+     max-width: 18%; 
+     margin-top: 80px;    
+     position: fixed; 
+     float: left;
+  }
+
+  .text{
+      margin-left: 25%;
+      margin-top: 100px;
+     width: 50%;
+    font-size: 15px;
+  }
+
+  .p1{
+      font-size: 45px;
+      font-family: 'Abril Fatface', cursive;
+    color: rgb(232,167,83);
+
+  }
+
+
+  .p2{
+    font-family: 'Montserrat', sans-serif;
+    background-color: black;
+    border-radius: 10px;
+    color: white;
+  }
+ 
+ @media (max-width: 767px) {
+
+    .sidenav{
+      display: none;  
+  }
+  .text{
+      margin-left: 15%;
+      width: 70%;
+  }
+}
