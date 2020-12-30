@@ -1,3 +1,7 @@
+body{
+    background-color: rgb(255, 252, 234);
+}
+
 .navbar-light .navbar-brand {
     color: rgb(232,167,83);
     font-family: 'Abril Fatface', cursive;

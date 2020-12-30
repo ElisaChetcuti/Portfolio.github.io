@@ -1,3 +1,7 @@
+body{
+    background-color: rgb(255, 252, 234);
+}
+
 .navbar-light .navbar-brand {
     color: rgb(232,167,83);
     font-family: 'Abril Fatface', cursive;
@@ -98,6 +102,14 @@
         width: 100%;
     }
 
+ 
+hr{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 2%;
+    
+  }
+    
     
     .col-sm-12:hover {
         -ms-transform: scale(1.05); /* IE 9 */
