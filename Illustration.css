@@ -50,6 +50,12 @@
         padding: 10px;
     }
 
+    .col-sm-12:hover {
+        -ms-transform: scale(1.05); /* IE 9 */
+        -webkit-transform: scale(1.05); /* Safari 3-8 */
+        transform: scale(1.05); 
+      }
+      
     @media (max-width: 767px) {
         .sidenav {
             display: none;
