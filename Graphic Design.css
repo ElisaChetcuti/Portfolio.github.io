@@ -9,10 +9,6 @@
     font-size: large;
 }
 
-.col{
-    width: 50%;
-}
-
 /* The sidebar menu */
 .sidenav {
     height: 100%; /* Full-height: remove this if you want "auto" height */
@@ -34,11 +30,6 @@
    float: left;
 }
 
-  .row{
-      margin-left: 18%;
-      text-align: center;
-      padding: 0%;
-    }
 
     .col-sm-12{
         padding-top: 20px;
@@ -50,29 +41,28 @@
         padding: 10px;
     }
 
-    .carousel-inner{
+
+
+    .conteiner{
+        margin-left: 18%;
         padding: 20px;
-        justify-items: center;
+        text-align: center;
     }
-    
+
     .carousel-inner img {
-        width: 70%;
-        height: 70%;
-            margin: auto;
-          }
-      
+          margin: auto;
+     }
+            
+     #carouselExampleIndicators{
+          margin: auto;
+          width: 100%;
+    }
       
       .carousel-control-next,
       .carousel-control-prev /*, .carousel-indicators */ {
           filter: invert(100%);
       }
 
-      .carousel-caption{
-   
-        color: black;  
-        font-family: 'Abril Fatface', cursive;
-
-      }
 
 
     @media (max-width: 767px) {
@@ -81,7 +71,7 @@
         }
       }
         @media (max-width: 767px) {
-            .row {
+            .conteiner {
                 width: 90%;
                 margin: 0 auto;               
             }
@@ -96,15 +86,21 @@
 
     h1{
         font-size: 45px;
-        text-align: center;
         width: 100%;
         font-family: 'Abril Fatface', cursive;
         color:  rgb(232,167,83);
     }
 
     p{
-        text-align: center;
+
         margin-left: 10%;
         margin-right: 10%;
         width: 100%;
     }
+
+    
+    .col-sm-12:hover {
+        -ms-transform: scale(1.05); /* IE 9 */
+        -webkit-transform: scale(1.05); /* Safari 3-8 */
+        transform: scale(1.05); 
+      }
