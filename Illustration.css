@@ -1,12 +1,16 @@
+    /*Background Colour*/
 body{
     background-color: rgb(255, 252, 234);
 }
 
+    /*Navbar text (Elisa Chetcuti)*/
 .navbar-light .navbar-brand {
     color: rgb(232,167,83);
     font-family: 'Abril Fatface', cursive;
     font-size: x-large;
 }
+
+    /*Navbar text*/
 .navbar-light .navbar-nav .nav-link { 
     color: rgb(232,167,83);
     font-family: 'Abril Fatface', cursive;
@@ -14,20 +18,21 @@ body{
 }
 
 
-/* The sidebar menu */
+    /* Sidebar - to set size */
 .sidenav {
-    height: 100%; /* Full-height: remove this if you want "auto" height */
-    width: 17%; /* Set the width of the sidebar */
-    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-    z-index: 1; /* Stay on top */
-    top: 0; /* Stay at the top */
+    height: 100%; 
+    width: 17%;
+    position: fixed; 
+    z-index: 1;
+    top: 0; 
     left: 0;
-    background-color: rgb(232,167,83); /* Black */
+    background-color: rgb(232,167,83); 
     overflow-y: hidden;
     overflow-x: hidden;
     padding-top: 60px;
   }
 
+    /*to set size of illustraiton on sidebar*/
   .portrait{
    max-width: 18%; 
    margin-top: 80px;    
@@ -35,12 +40,13 @@ body{
    float: left;
 }
 
+    /*to set position of body - in relation to sidebar*/
         .conteiner{
              margin-left: 18%;
              text-align: center;
         }
 
-
+    /*Responsive grid*/
          .col-sm-12{
              padding-top: 20px;
          }
@@ -51,12 +57,8 @@ body{
             padding: 10px;
         }
 
-        .col-sm-12:hover {
-            -ms-transform: scale(1.05); /* IE 9 */
-            -webkit-transform: scale(1.05); /* Safari 3-8 */
-            transform: scale(1.05); 
-        }
 
+    /*to make sidenav disappear at a small size and make the grid and carousel take up the whole space*/
         @media (max-width: 767px) {
         .sidenav {
             display: none;
@@ -70,8 +72,8 @@ body{
                 padding: 20px;
             }
         }
-
-          
+    
+    /*carousel images and indicators*/
         .carousel-inner img {
                 margin: auto;
                 width: 100%;
@@ -82,13 +84,14 @@ body{
                 margin: auto;
                 width: 100%;
           }
-            
+
+    /*carousel indicator colour*/
         .carousel-control-next,
         .carousel-control-prev /*, .carousel-indicators */ {
                 filter: invert(100%);
             }
 
-
+    /*Dissertation project title*/
           h1{
             font-size: 45px;
             text-align: center;
@@ -96,11 +99,18 @@ body{
             font-family: 'Abril Fatface', cursive;
             color:  rgb(232,167,83);
         }
-    
+ 
+    /*Dissertation project description*/
         p{
             text-align: center;
             margin-left: 10%;
             margin-right: 10%;
             width: 100%;
         }
-  
+        
+    /*to make images enlarge when hovered over*/
+        .col-sm-12:hover {
+            -ms-transform: scale(1.05); /* IE 9 */
+            -webkit-transform: scale(1.05); /* Safari 3-8 */
+            transform: scale(1.05); 
+        }

@@ -1,3 +1,4 @@
+/*background image*/
 body{
     background: url(Face.png) no-repeat;
     background-size: 1600px,auto;
@@ -5,25 +6,29 @@ body{
     background-color: rgb(255, 252, 234);
 }
 
+/*navbar text (Elisa Chetcuti)*/
 .navbar-light .navbar-brand {
     color: rgb(232,167,83);
     font-family: 'Abril Fatface', cursive;
     font-size: x-large;
 }
+
+/*navbar text*/
 .navbar-light .navbar-nav .nav-link { 
     color: rgb(232,167,83);
     font-family: 'Abril Fatface', cursive;
     font-size: large;
 }
 
+/*Text + Image*/
 .Image{
    margin-left: 100px;
     overflow-y: hidden;
 }
 
+/*to make image responsive*/
 @media (max-width: 767px) {
     .Image {
-
         margin-left: 50px;
     }
 }

@@ -1,32 +1,37 @@
+/*background colour*/
 body{
     background-color: rgb(255, 252, 234);
 }
 
+/*navbar text (Elisa Chetcuti)*/
 .navbar-light .navbar-brand {
     color: rgb(232,167,83);
     font-family: 'Abril Fatface', cursive;
     font-size: x-large;
 }
+
+/*navbar text*/
 .navbar-light .navbar-nav .nav-link { 
     color: rgb(232,167,83);
     font-family: 'Abril Fatface', cursive;
     font-size: large;
 }
 
-/* The sidebar menu */
+/* Sidebar - to set size */
 .sidenav {
-    height: 100%; /* Full-height: remove this if you want "auto" height */
-    width: 17%; /* Set the width of the sidebar */
-    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-    z-index: 1; /* Stay on top */
-    top: 0; /* Stay at the top */
+    height: 100%; 
+    width: 17%; 
+    position: fixed; 
+    z-index: 1; 
+    top: 0; 
     left: 0;
-    background-color: rgb(232,167,83); /* Black */
+    background-color: rgb(232,167,83);
     overflow-y: hidden;
     overflow-x: hidden;
     padding-top: 60px;
   }
 
+  /*to set size of illustraiton on sidebar*/
   .portrait{
    max-width: 18%; 
    margin-top: 80px;    
@@ -34,7 +39,7 @@ body{
    float: left;
 }
 
-
+/*responsive grid*/
     .col-sm-12{
         padding-top: 20px;
     }
@@ -46,7 +51,7 @@ body{
     }
 
 
-
+/*to set position of body - in relation to sidebar*/
     .conteiner{
         margin-left: 18%;
         padding: 20px;
@@ -63,12 +68,12 @@ body{
     }
       
       .carousel-control-next,
-      .carousel-control-prev /*, .carousel-indicators */ {
+      .carousel-control-prev  {
           filter: invert(100%);
       }
 
 
-
+/*to make sidenav disappear at a small size and make the grid and carousel take up the whole space*/
     @media (max-width: 767px) {
         .sidenav {
             display: none;
@@ -88,6 +93,7 @@ body{
         }
     }
 
+    /*Titles*/
     h1{
         font-size: 45px;
         width: 100%;
@@ -95,24 +101,24 @@ body{
         color:  rgb(232,167,83);
     }
 
+    /*Descriptions*/
     p{
-
         margin-left: 10%;
         margin-right: 10%;
         width: 100%;
     }
 
- 
-hr{
+    /*lines*/
+    hr{
     width: 80%;
     margin: 0 auto;
     margin-top: 2%;
     
   }
     
-    
+    /*to make images enlarge when hovered over*/
     .col-sm-12:hover {
-        -ms-transform: scale(1.05); /* IE 9 */
-        -webkit-transform: scale(1.05); /* Safari 3-8 */
+        -ms-transform: scale(1.05); 
+        -webkit-transform: scale(1.05); 
         transform: scale(1.05); 
       }
