@@ -1,16 +1,16 @@
-/*background colour*/
+/*Background Colour*/
 body{
     background-color: rgb(255, 252, 234);
 }
 
-/*navbar text (Elisa Chetcuti)*/
+/*Navbar text (Elisa Chetcuti)*/
 .navbar-light .navbar-brand {
     color: rgb(232,167,83);
     font-family: 'Abril Fatface', cursive;
     font-size: x-large;
 }
 
-/*navbar text*/
+/*Navbar text*/
 .navbar-light .navbar-nav .nav-link { 
     color: rgb(232,167,83);
     font-family: 'Abril Fatface', cursive;
@@ -39,7 +39,7 @@ body{
    float: left;
 }
 
-/*responsive grid*/
+/*Responsive grid*/
     .col-sm-12{
         padding-top: 20px;
     }
