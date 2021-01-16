@@ -77,13 +77,13 @@ body{
     /*carousel images and indicators*/
         .carousel-inner img {
                 margin: auto;
-                width: 80%;
+                width: 90%;
                 padding: 20px;
            }
                   
         #carouselExampleIndicators{
                 margin: auto;
-                width: 80%;
+                width: 90%;
           }
 
     /*carousel indicator colour*/
