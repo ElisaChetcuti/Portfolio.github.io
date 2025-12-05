@@ -9,11 +9,6 @@ body{
     background-color: rgb(255, 252, 234);
 }
 
-.anchor {
-  anchor-name: --my-anchor;
-  width: fit-content;
-}
-
 label{
     color: white;
     position: fixed;
@@ -24,7 +19,15 @@ label{
     margin-left: 30%;
     text-decoration: underline;
     text-decoration-thickness: from-font;
-    
+    }
+
+.label2{
+    color: white;
+    position: fixed;
+    align-self: bottom;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    background-color: black;
     }
 
 /*navbar text (Elisa Chetcuti)*/
