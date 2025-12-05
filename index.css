@@ -38,12 +38,10 @@ label{
     margin-right: 0;
 }
 
-
-
 /*to make image responsive*/
 @media (max-width: 767px) {
     .Image {
-        margin-left: 50px;
+        margin-left: 0px;
     }
 }
 
