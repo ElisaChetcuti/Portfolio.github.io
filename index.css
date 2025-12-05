@@ -21,9 +21,9 @@ label{
     text-decoration-thickness: from-font;
     }
 
-.label2{
+.Label2{
     color: white;
-    position: fixed;
+    position: absolute;
     align-self: bottom;
     font-family: 'Times New Roman', Times, serif;
     font-size: 30px;
