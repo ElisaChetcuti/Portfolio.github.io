@@ -34,10 +34,9 @@
 }
 
 strong{
-    position: relative;
+    position: absolute;
     top: 25%;
     width: 50%;
-    text-anchor: start;
     color: white;
     font-family: "DM Serif Text", serif;
 }
