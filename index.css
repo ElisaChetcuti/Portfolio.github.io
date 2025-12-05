@@ -18,6 +18,7 @@ label{
     margin-top: 20%;
     margin-left: 30%;
     text-decoration: underline;
+    text-decoration-thickness: from-font;
     }
 
 /*navbar text (Elisa Chetcuti)*/
