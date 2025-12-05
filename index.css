@@ -22,8 +22,8 @@ body{
 
 /*Text + Image*/
 .Image{
-   margin-left: 100px;
     overflow-y: hidden;
+    overflow-x: hidden;
 }
 
 /*to make image responsive*/
