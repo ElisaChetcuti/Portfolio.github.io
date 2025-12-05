@@ -1,6 +1,6 @@
 /*background image*/
 body{
-    background-size: auto,auto;
+    background-size: 100%,100%;
     background-color: rgb(255, 252, 234);
     overflow-y: hidden;
 }
