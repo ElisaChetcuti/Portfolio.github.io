@@ -53,6 +53,7 @@ label{
     margin-right: 0;
 }
 
+
 /*to make image responsive*/
 @media (max-width: 767px) {
     .Image {
