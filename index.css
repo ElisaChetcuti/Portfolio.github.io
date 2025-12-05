@@ -29,6 +29,6 @@ body{
 /*to make image responsive*/
 @media (max-width: 767px) {
     .Image {
-        margin-left: 20px;
+        margin-left: 50px;
     }
 }
