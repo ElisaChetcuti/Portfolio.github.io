@@ -12,11 +12,9 @@ body{
 label{
     color: white;
     position: absolute;
-    top: 50px;
-    width: 300px;
+    align-self: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 150px;
-    align-self: center;
     }
 
 /*navbar text (Elisa Chetcuti)*/
