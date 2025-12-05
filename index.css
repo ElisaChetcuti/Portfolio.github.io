@@ -26,7 +26,7 @@ label{
     position: absolute;
     align-self: bottom;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 30px;
+    font-size: 20px;
     background-color: black;
     }
 
@@ -49,8 +49,9 @@ label{
     overflow-y: hidden;
     overflow-x: hidden;
     size: 100%,100%;
-    margin-left: 0;
-    margin-right: 0;
+    margin-left: 20;
+    margin-right: 20;
+    scale: inherit;
 }
 
 
