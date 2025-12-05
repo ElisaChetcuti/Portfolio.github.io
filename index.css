@@ -7,10 +7,10 @@ body{
 label{
     color: white;
     position: absolute;
-    top: 50%;
-    width: 50%;
+    top: 500px;
+    width: auto;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 3000px;
+    font-size: 1500px;
     }
 
 /*navbar text (Elisa Chetcuti)*/
