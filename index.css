@@ -49,9 +49,9 @@ label{
     overflow-y: hidden;
     overflow-x: hidden;
     size: 100%,100%;
-    margin-left: 20;
-    margin-right: 20;
-    scale: inherit;
+    padding-left: 20px;
+    padding-right: 20px;
+
 }
 
 
