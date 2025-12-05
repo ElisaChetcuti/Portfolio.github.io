@@ -29,6 +29,6 @@ body{
 /*to make image responsive*/
 @media (max-width: 767px) {
     .Image {
-        -o-animation-fill-mode: backwards;
+        margin-left: 50px;
     }
 }
