@@ -34,9 +34,10 @@
 }
 
 strong{
+    color: white;
+    font-family: "DM Serif Text", serif;
     position: absolute;
     top: 25%;
     width: 50%;
-    color: white;
-    font-family: "DM Serif Text", serif;
-}
+    }
+
