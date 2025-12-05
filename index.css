@@ -11,7 +11,7 @@ body{
 
 label{
     color: white;
-    position: absolute;
+    position: relative;
     align-self: center;
     font-family: 'Times New Roman', Times, serif;
     font-size: 150px;
@@ -19,7 +19,7 @@ label{
     margin-left: 30%;
     text-decoration: underline;
     text-decoration-thickness: from-font;
-    position-anchor: inherit;
+    
     }
 
 /*navbar text (Elisa Chetcuti)*/
