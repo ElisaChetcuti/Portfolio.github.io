@@ -15,10 +15,11 @@ label{
     align-self: center;
     font-family: 'Times New Roman', Times, serif;
     font-size: 150px;
-    margin-top: 20%;
+    margin-top: 10%;
     margin-left: 30%;
     text-decoration: underline;
     text-decoration-thickness: from-font;
+    position-anchor: inherit;
     }
 
 /*navbar text (Elisa Chetcuti)*/
