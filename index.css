@@ -9,10 +9,14 @@ body{
     background-color: rgb(255, 252, 234);
 }
 
+.anchor {
+  anchor-name: --my-anchor;
+  width: fit-content;
+}
+
 label{
     color: white;
-    position: absolute;
-    offset-anchor: 30%;
+    position: fixed;
     align-self: center;
     font-family: 'Times New Roman', Times, serif;
     font-size: 150px;
