@@ -24,13 +24,6 @@ body{
     overflow-x: hidden;
 }
 
-/*to make image responsive*/
-@media (max-width: 767px) {
-    .Image {
-        margin-left: 50px;
-    }
-}
-
 .Text{
     color: white;
     font-family: "DM Serif Text", serif;
@@ -38,4 +31,13 @@ body{
     top: 25%;
     width: 50%;
     }
+
+/*to make image responsive*/
+@media (max-width: 767px) {
+    .Image {
+        margin-left: 50px;
+    }
+}
+
+
 
