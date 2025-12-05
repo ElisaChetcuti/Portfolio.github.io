@@ -4,6 +4,14 @@ body{
     background-color: rgb(255, 252, 234);
 }
 
+Label{
+    color: white;
+    font-family: "DM Serif Text", serif;
+    position: absolute;
+    top: 25%;
+    width: 50%;
+    }
+
 /*navbar text (Elisa Chetcuti)*/
 .navbar-light .navbar-brand {
     color: rgb(232,167,83);
@@ -24,13 +32,7 @@ body{
     overflow-x: hidden;
 }
 
-.Text{
-    color: white;
-    font-family: "DM Serif Text", serif;
-    position: absolute;
-    top: 25%;
-    width: 50%;
-    }
+
 
 /*to make image responsive*/
 @media (max-width: 767px) {
