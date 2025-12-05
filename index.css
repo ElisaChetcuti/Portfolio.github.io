@@ -12,6 +12,7 @@ body{
 label{
     color: white;
     position: relative;
+    position-anchor: auto;
     align-self: center;
     font-family: 'Times New Roman', Times, serif;
     font-size: 150px;
